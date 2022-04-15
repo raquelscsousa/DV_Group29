@@ -1,0 +1,88 @@
+.graph_box {
+  display : inline-block;
+  width : 46.5%;
+  border: 5px solid #005dae;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px grey;
+  background-color: white;
+}
+
+.containers {
+  display : inline-block;
+  width : 100%;
+}
+
+.header{
+  width : 95%;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px grey;
+  background-color: #005dae;
+  display:flex;
+}
+
+h1, P {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+word-spacing: 2px;
+color: white;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+h4,Label{padding-left:25px;}
+
+h4, h5{
+color:black;
+font-weight:700,font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}
+
+.footer {
+width : 95%;
+border-radius: 5px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+padding: 20px;
+box-shadow: 3px 3px 3px white;
+background-color: #005dae;
+display:flex;
+}
+
+/* RADIO BUTTONS */
+.radio {
+  display:flex;
+  width: 70%;
+}
+
+.radio input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+}
+
+.radio label {
+  background-color: white;
+  padding: 15px 15px;
+  font-size: 16px;
+  border: 2px solid #004684;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 2px;
+  font-weight:700;
+  color: black;
+}
+
+.radio label:hover {
+  background-color: #e1e2df;
+  border: 2px solid #e1e2df;
+}
