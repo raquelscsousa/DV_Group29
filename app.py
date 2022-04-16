@@ -9,7 +9,7 @@ import pandas as pd
 import plotly.graph_objs as go
 import dash_bootstrap_components as dbc
 
-explor_ = pd.read_excel(r'https://github.com/raquelscsousa/DV_Group29/blob/main/data/DV_Dataset.xlsx')
+explor_ = pd.read_excel(r'https://github.com/raquelscsousa/DV_Group29/blob/main/data/DV_Dataset.xlsx', engine='openpyxl')
 explor_['GDP per capita'] = explor_['GDP'] / explor_['POP']
 
 df = explor_.loc[:].copy()
