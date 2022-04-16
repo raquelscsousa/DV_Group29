@@ -6,7 +6,7 @@ dash_renderer
 dash-html-components
 dash-core-components
 dash-bootstrap-components
-pandas
+pandas==1.1.5
 numpy
 plotly.express
 openpyxl
