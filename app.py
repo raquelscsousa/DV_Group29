@@ -33,6 +33,7 @@ indicator_options = [
 
 ###################### APP Structure
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.layout = html.Div([  # main container
     #### Title container
